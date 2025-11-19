@@ -13,7 +13,7 @@ type Config struct {
 type PostgresConfig struct {
 	Host     string `env:"POSTGRES_HOST"`
 	Port     int    `env:"POSTGRES_PORT"`
-	DbName   string `env:"POSTGRES_DB_NAME"`
+	DbName   string `env:"POSTGRES_DB"`
 	User     string `env:"POSTGRES_USER"`
 	Password string `env:"POSTGRES_PASSWORD"`
 }
