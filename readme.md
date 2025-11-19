@@ -50,3 +50,10 @@
 ## Database Migrations
 
 The database migrations are automatically applied when the `migrate` service runs in Docker Compose.
+
+## Tests
+
+Dont forget to run this command if you want to run integration tests:
+```bash
+go mod tidy
+```
